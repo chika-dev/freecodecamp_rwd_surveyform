@@ -1,0 +1,75 @@
+.label {
+    display: block;
+}
+
+.body{
+    background-image: url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-color:rgb(27, 6, 46);
+    line-height: 1.4;
+    color: rgb(255, 255, 255);
+    font-family:'Times New Roman', Times, serif;
+    font-style: initial;
+}
+
+#title{
+    width: auto;
+    text-align: center;
+}
+
+#description{
+    text-align: center;
+    width: auto;
+}
+
+#survey-form{
+    display: block;
+    max-width: 700px;
+    margin: auto;
+    background-color: rgb(48, 17, 77);
+    padding: 10px 16px;
+    border-radius: 5px;
+}
+
+.personal-details{
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.radio-buttons{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.checkboxes{
+    display: grid;
+    grid-template-columns: auto;
+    padding-bottom: 20px;
+}
+
+.surveyform-divs{
+    display: grid;
+    grid-template-columns: 1fr 7fr;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.surveyform-divs input {
+    height: 30px;
+    border-radius: 7px;
+}  
+
+.surveyform-divs label {
+    display: block;
+    margin: auto 0;
+}
+
+.submitbutton{
+    background-color:rgb(243, 243, 247);
+}
+
+.textarea{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
